@@ -1,0 +1,14 @@
+{
+  "name": "wageuplift-animesh624d",
+  "version": "1.0.0",
+  "description": "Jobsy - Modern Job Portal Application",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": ["job", "portal", "react", "nodejs"],
+  "author": "Animesh",
+  "license": "MIT"
+}
